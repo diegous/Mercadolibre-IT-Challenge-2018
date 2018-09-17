@@ -1,0 +1,41 @@
+300 PTS
+
+ESPAÑOL
+¡Científicos del centro para el Tratamiento y Control de la Población, hicieron un impresionante descubrimiento! Las alpacas, en lugar de portar un código genético compuesto de bases adenina (A), citosina (C), guanina (G) y timina (T), poseen bases completamente distintas: su ADN está compuesto de bases (A),(C),(L) y (P) donde (L) es lanina y (P) es preciosina. Más aún, los investigadores descubrieron que el código genético de las alpacas es extremadamente estructurado. Este se puede codificar como una secuencia sobre el alfabeto {A,C,L,P} aplicando algunas reglas.
+
+Partiendo con la letra A la secuencia que describe el ADN puede generarse aplicando N veces el siguiente conjunto de reglas de forma simultánea:
+
+Reemplazar cada ocurrencia de (A) por (AL)
+Reemplazar cada ocurrencia de (L) por (PACA)
+Reemplazar cada ocurrencia de (P) por (CP)
+Reemplazar cada ocurrencia de (C) por (PC)
+Por ejemplo, si N = 3 la secuencia obtenida será ALPACACPALPCAL:
+
+A −→ AL −→ ALPACA −→ ALPACACPALPCAL
+Los científicos están estudiando la hermosura de las alpacas. Hasta el momento han descubierto que existen M tipos de hermosura distintas. Y más aún, también han logrado relacionar el tipo de hermosura de una alpaca con la cantidad de veces que la subcadena (ALPACA) aparece en su secuencia de ADN. En particular, si (ALPACA) aparece D veces en la secuencia de ADN de una alpaca, entonces su tipo de hermosura está dado por el resto de la división de D por M. ¿Podrías ayudar a nuestros científicos a determinar qué tan bella es una alpaca en particular?
+La entrada consiste en una única línea que contiene dos números N y M separados por un espacio, donde N indica el número de iteraciones que describen el ADN de la alpaca (1 ≤ N ≤ 10^15), y M es la cantidad de tipos de hermosura (2 ≤ M ≤ 10^9).
+
+Entrada:
+234612846789231 123456789
+
+
+La respuesta es un único entero conteniendo el tipo de hermosura de la alpaca (D mod M).
+
+
+PORTUGUÉS
+Cientistas do Centro de Tratamento e Controle da População fizeram uma descoberta impressionante! Alpacas, em vez de portarem um código genético composto de bases adenina (A), citosina (C), guanina (G) e timina (T), possuem bases completamente diferentes: seu DNA é composto de bases (A), (C), (L) e (P) em que (L) é lanina e (P) é preciosina. Além disso, os pesquisadores descobriram que o código genético das alpacas é extremamente estruturado. Este pode ser codificado como uma sequência sobre o alfabeto {A, C, L, P} aplicando algumas regras. Começando com a letra A, a sequência que descreve o DNA pode ser gerada aplicando N vezes o seguinte conjunto de regras simultaneamente:
+
+Substituir cada ocorrência de (A) por (AL)
+Substituir cada ocorrência de (L) por (PACA)
+Substituir cada ocorrência de (P) por (CP)
+Substituir cada ocorrência de (C) por (PC)
+Por exemplo, se N = 3 a sequência obtida será ALPACACPALPCAL:
+
+A - → AL - → ALPACA - → ALPACACPALPCAL
+Os cientistas estão estudando a beleza das alpacas. Até agora eles descobriram que existem M tipos diferentes de beleza. E, além disso, também conseguiram relacionar o tipo de beleza de uma alpaca com o número de vezes que a subcadeia (ALPACA) aparece em sua sequência de DNA. Em particular, se (ALPACA) aparecer D vezes na sequência de DNA de uma alpaca, então seu tipo de beleza é dado pelo resto da divisão de D por M. Poderia ajudar os nossos cientistas a determinar quão bonita é uma alpaca em particular?
+A entrada consiste em uma única linha contendo dois números N e M separados por um espaço, em que N indica o número de iterações que descrevem o DNA da alpaca (1 ≤ N ≤ 10 ^ 15), e M é o número de tipos de beleza (2 ≤ M ≤ 10 ^ 9).
+Entrada
+234612846789231 123456789
+
+A resposta é um único inteiro contendo o tipo de beleza da alpaca (D mod M).
+

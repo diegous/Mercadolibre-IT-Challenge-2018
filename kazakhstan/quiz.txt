@@ -1,0 +1,55 @@
+300 PTS
+
+ESPAÑOL
+Las ruletas con mensaje son un complicado esfuerzo de criptógrafos amateur para transmitir mensajes de manera trabajosa y cuya efectividad es absolutamente dudosa.
+Son ruletas divididas en una cantidad par de sectores y en las que cada sector contiene algún carácter ASCII. En la parte superior hay un marcador llamado ORDEN y en la parte INFERIOR hay un marcador llamado MENSAJE.
+El protocolo determina que se lee comenzando en el sector marcado por ORDEN y en sentido horario todas las letras de la ruleta. Por ejemplo, en la siguiente posición inicial se puede leer la palabra BANANA
+https://www.dropbox.com/s/kskiiv2vxv8t5a7/banana.jpg?dl=0
+
+Luego la ruleta comienza a girar y se irán mostrando sucesivamente las siguientes palabras:
+BANANA
+ANANAB
+NANABA
+ANABAN
+NABANA
+ABANAN
+
+En el momento en el que la palabra leída desde la posición ORDEN es la mínima lexicográfica (la que aparecería primero en un diccionario), se podrá leer a partir de la posición MENSAJE un mensaje oculto de una longitud acordada previamente.
+
+En el ejemplo anterior, el momento en que se muestra el mensaje es cuando desde ORDEN se lee la palabra ABANAN, como se muestra en la siguiente imagen.
+https://www.dropbox.com/s/os05nkcxcezb7i6/abanan.jpg?dl=0
+
+
+Si la longitud acordada era 2, el mensaje oculto sería NA
+
+Hemos descubierto una ruleta increíblemente grande. Contiene exactamente un millón de letras. Sabemos también que el mensaje cifrado que encontraremos allí tiene una longitud de 2976. El contenido de la ruleta en su estado inicial está dado en el archivo roulette.txt
+https://www.dropbox.com/s/4wec7pfsvvl5tt3/roulette.txt?dl=0
+
+¿Podés ayudarnos a descubrirlo?
+
+Aclaración: Para realizar la comparación "alfabética" de símbolos en el archivo deben utilizarse sus valores ASCII.
+
+PORTUGUES
+As roletas com mensagem são um esforço complexo dos criptógrafos amadores para transmitir mensagens em forma laboriosa e cuja eficácia é absolutamente duvidosa.
+São roletas divididas em um número par de setores e em que cada setor contém algum caractere ASCII. Na parte superior há um marcador chamado ORDEN e na parte inferior há um marcador chamado MENSAJE.
+O protocolo diz que deve ser lido começando no setor marcado por ORDEN e no sentido horário todas as letras da roleta. Por exemplo, na seguinte posição inicial pode-se ler a palavra BANANA
+https://www.dropbox.com/s/kskiiv2vxv8t5a7/banana.jpg?dl=0
+Logo a roleta começa a girar e as seguintes palavras serão exibidas sucessivamente:
+BANANA
+ANANAB
+NANABA
+ANABAN
+NABANA
+ABANAN
+
+No momento em que a palavra lida da posição ORDEN é o mínimo lexicográfico (que aparece primeiro em um dicionário), você poderá ler, a partir da posição MENSAJE, uma mensagem oculta de um comprimento previamente acordado.
+No exemplo prévio, no momento que a mensagem é demonstrada é quando em ORDEN pode se ler a palavra ABANAN, como pode ver na imagem no link
+https://www.dropbox.com/s/os05nkcxcezb7i6/abanan.jpg?dl=0
+
+Se o comprimento acordado foi 2, a mensagem oculta será NA.
+
+Descobrimos uma roleta muito grande. Ela contém exatamente um milhão de letras. Além disso sabemos que a mensagem cifrada que vamos achar lá tem um comprimento de 2976. O conteúdo da roleta no estado inicial é dado pelo arquivo roulette.txt: https://www.dropbox.com/s/4wec7pfsvvl5tt3/roulette.txt?dl=0
+
+Pode nos ajudar a descobri-lo?
+
+Esclarecimento: Para realizar a comparação "alfabética" de símbolos no arquivo use seus valores ASCII.

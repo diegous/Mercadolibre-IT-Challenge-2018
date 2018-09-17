@@ -1,0 +1,26 @@
+50 PTS
+
+ESPAÑOL
+Arturo es un escritor aficionado de novelas de misterios. Hace pocos días ha terminado su último libro y, hasta ahora, su mejor obra, titulada "El Misterio de la Mano". No solo eso, Arturo acaba de firmar un contrato con una editorial para que lo ayude a comercializar su libro y lograr que el mundo conozca su trabajo.
+Una de las decisiones más importantes que Arturo debe tomar es el tamaño en el que su libro será impreso. Para ello, le ayudaría mucho saber la cantidad de páginas que su libro tendría en cada formato.
+Dependiendo del formato del libro, cada página puede contener hasta Z caracteres. Sin embargo, la editorial exige que cada página incluya el título del libro de largo Y , además del número de página actual y la cantidad de páginas del libro separados por el carácter ’/’. Para escribir el número de página actual se usa la misma cantidad de espacios que el número de paginas, anteponiendo los ’0’ que sean necesarios. Por ejemplo, la página “uno de diez” se escribe 01/10, ocupando cinco caracteres.
+Arturo sabe que su libro tiene X caracteres. Ayuda a Arturo a determinar la mínima cantidad de páginas que tendría su libro, dependiendo del formato que escoja.
+La primera línea de la entrada contiene tres enteros X, Y y Z, donde X (1 ≤ X ≤ 10^5) es el número de caracteres en el libro, Y (0 ≤ Y ≤ 10^2) es el largo del título, y Z (0 ≤ Z ≤ 10^5) es el número de caracteres que se puede escribir en una página. La entrada está construida de manera que siempre es posible generar un libro.
+Como salida se espera un valor entero que representa el mínimo número de páginas que puede tener el libro.
+Entrada de Ejemplo: 456 639 718
+Salida de ejemplo: 6
+Entrada
+171024 12825 14359
+
+PORTUGUÉS
+Arturo é um escritor que gosta de romances de mistério. Há alguns dias ele terminou seu último livro, até agora, seu melhor trabalho, intitulado "O mistério da mão". Não só isso, Arturo acaba de assinar um contrato com um editora para ajudá-lo a comercializar seu livro e fazer com que o mundo conheça seu trabalho.
+Uma das decisões mais importantes que Arturo deve tomar é o tamanho em que seu livro será impresso. Para isso, seria muito útil para ele saber quantas páginas seu livro teria em cada formato.
+Dependendo do formato do livro, cada página pode conter até Z caracteres. No entanto, o editor exige que cada página inclua o título do livro de comprimento Y, além do número da página atual e do número de páginas do livro separados pelo caractere '/'. Para escrever o número da página atual, usa-se a mesma quantidade de espaços que o número de páginas, colocando antes os '0' conforme necessário. Por exemplo, a página "um de dez" é escrita 01/10, ocupando cinco caracteres.
+Arturo sabe que seu livro tem X caracteres. Ajude Arturo a determinar o número mínimo de páginas que seu livro terá, dependendo do formato que ele escolher.
+A primeira linha da entrada contém três inteiros X, Y e Z, em que X (1 ≤ X ≤ 10 ^ 5) é o número de caracteres do livro, Y (0 ≤ Y ≤ 10 ^ 2) é o tamanho do título. e Z (0 ≤ Z ≤ 10 ^ 5) é o número de caracteres que podem ser escritos em uma página. A entrada é construída de forma que sempre possível gerar um livro.
+Como saída, é esperado um valor inteiro que represente o número mínimo de páginas que o livro pode ter.
+Entrada exemplo: 456 639 718
+Saida exemplo: 6
+Entrada
+171024 12825 14359
+

@@ -1,0 +1,24 @@
+3OO PTS
+
+Los vecinos de Calle Larga están preocupados porque la calidad de su conexión Wi-Fi ha empeorado considerablemente en los últimos años y debido a esto no pueden ver Game of Thrones tranquilamente.
+Cada una de las casas en la calle posee un enrutador cuyas características determinan el alcance de su señal. La señal de cada enrutador corresponde a un círculo determinado por un radio r. Cuando dos señales se intersectan se produce interferencia lo que degrada considerablemente la conexión.
+En la última reunión de la junta de vecinos, la comunidad determinó que la única solución para su problema era compartir la conexión a internet entre algunos vecinos para así poder prescindir de algunos enrutadores. Lamentablemente, la comisión encargada de poner el plan en marcha está teniendo problemas para evaluar qué enrutadores son mejores candidatos para ser mantenidos. Específicamente, dado un enrutador les gustaría determinar la cantidad de señales que este contiene completamente. Si la señal de un enrutador contiene completamente la señal de muchos enrutadores entonces este es un buen candidato para ser mantenido.
+La entrada contiene una sola línea con enteros separados por un espacio en blanco. Los dos primeros enteros N y Q (0 ≤ N ≤ 2 × 10^5, 0 ≤ Q ≤ 5 × 10^4) corresponden respectivamente a la cantidad total de enrutadores y la cantidad de enrutadores por los cuales se hará una consulta. Cada uno de los siguientes N pares de números describe un enrutador. El par i-ésimo describe el enrutador i con dos enteros p y r (0 ≤ p ≤ 10^9, 0 < r ≤ 10^9) que representan respectivamente la posición del enrutador en la calle y el radio de alcance de su señal. No habrá dos enrutadores en la misma posición. Los siguientes Q enteros contienen la descripción de una consulta. Cada consulta está descrita con un entero i (1 ≤ q ≤ N) indicando que se desea determinar la cantidad de señales que están completamente contenidas en la señal del enrutador i.
+Por cada consulta debe imprimirse un entero. Cada entero debe corresponder a la cantidad de señales que están contenidas completamente en la señal del enrutador de la consulta.
+
+Se deberá ingresar la concatenación de todos los casos de prueba en orden, sin espacios.
+
+Entrada
+10 10 9106 137 5339 852 3726 3952 994 210 5304 1471 5990 3581 3266 4392 5290 439 9299 296 9437 479 7 6 8 1 6 7 7 3 7 6
+
+PORTUGUÉS
+Os moradores de Calle Larga estão preocupados porque a qualidade de sua conexão Wi-Fi piorou consideravelmente nos últimos anos e, por causa disso, eles não podem assistir ao filme Game of Thrones tranquilos.
+Cada uma das casas na rua tem um roteador cujas características determinam o alcance do seu sinal. O sinal de cada roteador corresponde a um círculo determinado por um raio r. Quando dois sinais se cruzam, ocorre uma interferência que afeta consideravelmente a conexão.
+Na última reunião de vizinhos, a comunidade determinou que a única solução para o problema era compartilhar a conexão da Internet entre alguns vizinhos para poder prescindir de alguns roteadores. Infelizmente, a comissão encarregada de implementar o plano está tendo problemas para avaliar quais roteadores são os melhores candidatos a serem mantidos. De forma específica, dado um roteador, eles gostariam de determinar a quantidade de sinais que ele contém completamente. Se o sinal de um roteador contiver completamente o sinal de muitos roteadores, esse é um bom candidato a ser mantido.
+A entrada contém uma única linha com números inteiros separados por um espaço em branco. Os dois primeiros números inteiros N e Q (0 ≤ N ≤ 2 × 10 ^ 5, 0 ≤ Q ≤ 5 × 10 ^ 4) correspondem respectivamente ao número total de roteadores e ao número de roteadores para os quais será feita uma consulta. Cada um dos N pares de números a seguir descreve um roteador. O i-ésimo par descreve o roteador i com dois inteiros p e r (0 ≤ p ≤ 10 ^ 9, 0 <r ≤ 10 ^ 9) que representam respectivamente a posição do roteador na rua e o alcance de seu sinal. Não haverá dois roteadores na mesma posição. Os seguintes Q inteiros contêm a descrição de uma consulta. Cada consulta é descrita com um inteiro i (1 ≤ q ≤ N) indicando que é se deseja determinar a quantidade de sinais que estão completamente contidas no sinal do roteador i.
+Para cada consulta, deve ser impresso um inteiro. Cada inteiro deve corresponder ao número de sinais que estão contidos completamente no sinal do roteador da consulta.
+
+Se deverá ingressar a concatenação de todos os casos de teste em ordem, sem espaços.
+
+Entrada
+10 10 9106 137 5339 852 3726 3952 994 210 5304 1471 5990 3581 3266 4392 5290 439 9299 296 9437 479 7 6 8 1 6 7 7 3 7 6

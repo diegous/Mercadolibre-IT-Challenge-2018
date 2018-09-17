@@ -1,0 +1,11 @@
+400 PTS
+
+ESPAÑOL
+El siguiente audio tiene la respuesta que buscás.
+
+https://s3.amazonaws.com/it.challenge.18/problem10.wav
+
+PORTUGUÊS
+O seguinte áudio tem a resposta que você está procurando.
+
+https://s3.amazonaws.com/it.challenge.18/problem10.wav

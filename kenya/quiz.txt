@@ -1,0 +1,17 @@
+50 PTS
+
+ESPAÑOL
+Una caja que contiene N medallas fue encontrada en una excavación. Cada medalla está compuesta por diversas piedras y cada piedra está representada por una letra minúscula de la 'a' a 'z. Una piedra puede estar presente varias veces en una medalla y una piedra pasa a ser llamada especial si está presente al menos una vez en cada medalla
+Dada una lista de N de medallas con sus piedras, muestra el cuadrado de la cantidad de piedras especiales que se repiten más de dos veces en una medalla.
+Entrada
+La primera línea consiste de N,el número de medallas. Cada una de las proximas N líneas contienen una secuencia de letras minúsculas con las piedras de cada medalla
+5 abcdefgggghijlmmmnopppqqqqrrr abcdefggghijlmmnopppqqqqrrr abcdefggggghijlmmmnopppqqqqrrr abcdefggggghijlmmmnopppqqqqrrr abcdefggggghijlmmmnopppqqqqrrr
+
+PORTUGUES
+medal challenge
+Uma caixa contendo n medalhas foi encontrada em uma escavação. Cada medalha é composta por diversas pedras, e cada pedra é representada por uma letra minúscula de 'a' a 'z'. Uma pedra pode estar presente diversas vezes em uma medalha, e uma pedra é chamada de especial se estiver presente pelo menos uma vez em cada medalha.
+Dada uma lista de N medalhas com suas pedras, exiba o quadrado da quantidade de pedras especiais que se repetem mais de duas vez em uma medalha.
+entrada
+A primeira linha consiste de N, o número de medalhas. Cada uma das próximas N linhas contém uma sequência de letras minúsculas com as pedras de cada medalha.
+exemplo de input
+5 abcdefgggghijlmmmnopppqqqqrrr abcdefggghijlmmnopppqqqqrrr abcdefggggghijlmmmnopppqqqqrrr abcdefggggghijlmmmnopppqqqqrrr abcdefggggghijlmmmnopppqqqqrrr

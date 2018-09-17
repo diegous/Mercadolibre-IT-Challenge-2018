@@ -1,0 +1,28 @@
+150 PTS
+
+ESPAÑOL
+Llamamos cuadrado "no tan mágico" a una grilla de 5x5 en la que en cada casillero hay un dígito entre 0 y 3, y tal que la suma de cada una de sus filas, cada una de sus columnas y cada una de sus diagonales sea la misma.
+
+Por ejemplo, el siguiente cuadrado es "no tan mágico", pues cada una de sus filas, columnas y diagonales suma 3:
+
+0 0 0 0 3
+1 2 0 0 0
+0 1 0 2 0
+2 0 0 1 0
+0 0 3 0 0
+
+¿Cuántos cuadrados "no tan mágicos" existen?
+
+PORTUGUÊS
+
+Chamamos de quadrado “nem tão mágico" a uma grade de 5x5 na qual em cada caixa há um dígito entre 0 e 3, e em que a soma de cada uma de suas linhas, cada uma de suas colunas e cada uma de suas diagonais é a mesma.
+
+Por exemplo, o seguinte quadrado é “nem tão mágico", porque cada uma de suas linhas, colunas e diagonais soma 3:
+
+0 0 0 0 3
+1 2 0 0 0
+0 1 0 2 0
+2 0 0 1 0
+0 0 3 0 0
+
+Quantos quadrados “nem tão mágicos" existem?

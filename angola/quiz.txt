@@ -1,0 +1,59 @@
+150 PTS
+
+ESPAÑOL
+Tienes 4 tipos de bloques Lego™, de tamaños (1 x 1 x 1), (1 x 1 x 2), (1 x 1 x 3) y (1 x 1 x 4). Suponé que tienes un número infinito de bloques de cada tipo. Para abreviar, podemos llamar a estos tipos, respectivamente, bloque 1, bloque 2, bloque 3 y bloque 4, o incluso (1), (2), (3) y (4).
+
+Usando estos bloques, deseas hacer una pared de altura N y ancho M. La pared debe ser una estructura sólida continua sin agujeros. La pared debe estar conectada estructuralmente, por lo que no debe existir una vertical recta que permita que la pared se separe en dos sin cortar uno o más ladrillos.
+
+ Input (entrada):
+
+La primera línea contiene el número de casos de prueba T. Siguen los casos de prueba T. Cada caso contiene dos enteros, N y M.
+
+https://www.dropbox.com/s/h2brnoa5bg57zve/input%20Lego.txt?dl=0
+
+Output (salida):
+
+Una sola línea que contiene la cantidad de formas de construir el muro.
+Como los números pueden ser muy grandes, puedes aplicar modulo 1.000.000.007 a la salida.
+
+Restricciones:
+1 ≤ T ≤ 100
+1 ≤ N,M ≤ 1000
+
+Sample Input:
+4
+2 2
+3 2
+2 3
+4 4
+
+Sample Output:
+3793375
+
+
+
+PORTUGUES
+Você tem 4 tipos de blocos Lego™, de tamanhos (1 x 1 x 1), (1 x 1 x 2), (1 x 1 x 3) e (1 x 1 x 4). Se você tiver um número infinito de blocos de cada tipo. Para abreviar, podemos chamar estes tipos, respectivamente, bloco 1, bloco 2, bloco 3 e bloco 4, ou inclusive (1), (2), (3) e (4).
+Usando estes blocos, você deseja fazer uma parede de altura N e largura M. A parede deve ser uma estrutura sólida contínua sem buracos. A parede deve estar conectada estruturalmente, por isso não deve existir uma vertical reta que permita que a parede se separe em dois sem cortar um ou mais tijolos.
+
+ Input (entrada):
+A primeira linha contém o número de casos de teste T. Seguem os casos de teste T.  Cada caso contém dois inteiros, N e M.
+https://www.dropbox.com/s/h2brnoa5bg57zve/input%20Lego.txt?dl=0
+Output (saída):
+Linhas T de saída, uma para cada caso de teste, que contém a quantidade de formas de construir a parede.
+Como os números podem ser muito grandes, saída para módulo de resultado 1.000.000.007.
+
+Restrições:
+1 ≤ T ≤ 100
+1 ≤ N,M ≤ 1000
+
+Sample Input:
+4
+2 2
+3 2
+2 3
+4 4
+
+Sample Output:
+3793375
+

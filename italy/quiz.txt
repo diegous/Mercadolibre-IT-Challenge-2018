@@ -1,0 +1,48 @@
+50 PTS
+
+ESPAÑOL
+La Escuela de Idiomas y Ciencias enseña cinco materias: Física, Química, Matemáticas, Botánica y Zoología. Cada estudiante es experto en una materia. Las habilidades de los alumnos se describen mediante una string de las habilidades citadas que consta de las letras p, c, m, b y z solamente. Cada carácter describe la habilidad de un estudiante de la siguiente manera:
+p → Física.
+c →  Química.
+m → Matemáticas.
+b → Botánica.
+z  → Zoología.
+
+Tu tarea es determinar el número total de diferentes equipos que satisfacen las siguientes restricciones:
+
+Un equipo consiste en un grupo de exactamente cinco estudiantes.
+Cada estudiante es experto en una materia diferente.
+Un estudiante puede estar solo en un equipo.
+
+Por ejemplo, si la cadena de habilidades es pcmbzpcmbz, entonces hay dos equipos posibles que se pueden formar a la vez: habilidades [0-4] y habilidades [5-9]. No es importante determinar las permutaciones, ya que siempre estaremos limitados a dos equipos con 10 estudiantes.
+
+Se le proporciona un archivo con la entrada https://www.dropbox.com/s/3neyzkiomsb7eh8/Copia%20de%20input013.txt?dl=0
+
+Restricciones
+5 ≤ n ≤ 5 × 105
+skills[i] ∈ {p,c,m,b,z}
+
+Sample Input 0 pcmbz
+ Sample Output 0 1
+
+PORTUGUES
+A Escola de Idiomas e Ciências ensina cinco matérias: Física, Química, Matemática, Botânica e Zoologia. Cada estudante é experto em uma matéria. As habilidades dos alunos são descritas mediante uma string das habilidades citadas, que consta das letras p, c, m, b e z somente. Cada caractere descreve a habilidade de um estudante da seguinte maneira:
+P  → Física.
+c →  Química.
+m → Matemáticas.
+b → Botânica.
+z  → Zoologia.
+
+Sua tarefa é determinar o número total de diferentes equipes que satisfazem as seguintes restrições:
+
+Uma equipe consiste em um grupo de exatamente cinco estudantes.
+Cada estudiante es experto en una materia diferente.
+Um estudante pode estar sozinho em uma equipe.
+
+Por exemplo, se a string de habilidades for pcmbzpcmbz, então há duas equipes possíveis que podem ser formadas de uma vez: habilidades [0-4] e habilidades [5-9]. Não é importante determinar as permutações, já que sempre estaremos limitados a duas equipes com 10 estudantes.
+
+Você recebe um arquivo com a entrada que figura no seguinte link https://www.dropbox.com/s/3neyzkiomsb7eh8/Copia%20de%20input013.txt?dl=0
+
+Restrições
+5 ≤ n ≤ 5 × 105
+skills[i] ∈ {p,c,m,b,z}

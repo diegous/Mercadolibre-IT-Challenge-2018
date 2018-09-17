@@ -1,0 +1,15 @@
+350 PTS
+
+ESPAÑOL
+Ana y Beto van a jugar a un juego de azar. Los dos comparten una moneda balanceada y van a jugar por turnos: primero Ana e inmediatamente después Beto. En el turno de Ana, ella tira una moneda: si cae cara, gana un punto; si cae ceca, no gana nada. Beto es más innovador y en su turno primero elige cuántas veces va a tirar la moneda: si elige tirar K veces y salen todas cara, gana 2^{K-1} puntos; caso contrario, no gana ningún punto. El ganador será el que primero logre llegar a 1000 puntos.
+
+Como Beto es un gran matemático, él elige la cantidad K de tiros de la moneda que maximiza su probabilidad de ganar. ¿Cuál es la probabilidad de que gane Beto?
+
+La respuesta deberá ser redondeada a 8 lugares después de la coma. Por ejemplo, si el resultado fuera 0,123456789, deberá ingresarse 0,12345679. Si fuera 0,123, deberá ingresarse 0,12300000.
+
+PORTUGUÊS
+Ana e Beto vão jogar um jogo de azar. Os dois compartilham uma moeda justa e eles vão jogar em turnos: primero joga a Ana e imediatamente depois joga o Beto. Na vez de Ana, ela joga uma moeda: se der cara, ela ganha um ponto; se der coroa, não ganha nada. Beto é mais inovador e, na sua vez, ele primeiro escolhe quantas vezes ele lançará a moeda: se ele escolher jogar K vezes e todas caem cara, ele ganhará 2 ^ {K-1} pontos; caso contrário, não ganha nenhum ponto. O vencedor será aquele que atingir 1000 pontos primeiro.
+
+Como Beto é um grande matemático, ele escolhe o número K de lançamentos de moedas que maximiza sua probabilidade de ganhar. Qual a probabilidade de que o Beto vença?
+
+A resposta deve ser arredondada para 8 casas decimais. Por exemplo, se o resultado for 0,123456789, 0,12345679 deve ser inserido. Se fosse 0,123, 0,12300000 deveria ser inserido.

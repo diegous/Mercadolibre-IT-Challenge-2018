@@ -1,0 +1,15 @@
+550 PTS
+
+ESPAÑOL
+El fin de semana pasado Melanie fue al campo y sacó muchas fotos naturales en blanco y negro de 64x64 píxeles. Cortó pedacitos de 1x4 píxeles y los permutó en cada foto usando la misma permutación. El problema es que se olvidó cuál era la permutación que había utilizado, ¡y ahora no puede saber qué había en cada imagen! ¿Podrás ayudarla a reordenar los bloques de píxeles y decirle en cuáles de las primeras 50 imágenes había un pájaro o un avión?
+
+La respuesta es la concatenación de los números de las imágenes correctas, de menor a mayor, separados por espacios.
+
+https://s3.amazonaws.com/it.challenge.18/shuffled_images.zip
+
+PORTUGUÊS
+No fim de semana passado, Melanie foi para o campo e tirou muitas fotos naturais em preto e branco de 64x64 pixels. Ela cortou pedaços de 1x4 pixels e os permutou em cada foto usando a mesma permutação. O problema é que ela esqueceu qual foi a permutação que usou, e agora não pode saber o que estava em cada imagem! Você pode ajudá-la a reordenar os blocos de pixels e dizer em quais das primeiras 50 imagens tinha um pássaro ou um avião?
+
+A resposta é a concatenação dos números das imagens corretas, de menor a maior, separados por espaços.
+
+https://s3.amazonaws.com/it.challenge.18/shuffled_images.zip

@@ -1,0 +1,45 @@
+300 PTS
+
+ESPAÑOL
+Una hash table es una estructura de datos que permite guardar elementos y acceder a ellos muy rápidamente utilizando una función de hashing, es decir, una función que para cada elemento posible devuelve un número dentro de un rango indicado.
+
+Una de las formas más famosas de implementar una hash table se llama "hashing cerrado". Esta implementación guarda los datos en un arreglo de longitud K prefijado de antemano y al recibir un nuevo elemento E, lo hashea y lo coloca en la posición hash(E) (la función "hash" siempre devuelve un entero en el intervalo [0,K)). Si esa posición ya se encuentra ocupada, intenta guardarlo en la posición hash(E)+1. Si esa también está ocupada, intenta en la hash(E)+2 y así siguiendo, hasta llegar a la última posición del arreglo. Si aún así no encuentra espacio, vuelve a la posición 0 del arreglo y sigue el mismo proceso hasta encontrar una posición libre.
+
+Juan programó su hash table utilizando hashing cerrado, y utilizó una función de hashing uniforme (o sea, que para cada elemento asigna un valor entero en el rango [0,K) con la misma probabilidad). Desafortunadamente, su implementación tiene un bug: si llega al final del arreglo y no encontró espacio para guardar el elemento, lo descarta directamente (es decir, no intenta colocarlo en las posiciones 0, 1, 2... como sería correcto).
+
+Para testear la implementación de Juan, se seleccionaron N elementos al azar para insertarlos en una hash table implementada con un arreglo de longitud K. ¿Cuál es la probabilidad de que con este test descubramos que la implementación de Juan tiene un bug, si N = 27 y K = 42?
+
+Deberá ingresarse la respuesta como fracción irreducible (ver ejemplo).
+
+Ejemplo:
+
+Si N = 2 y K = 2, los hashing posibles para los N = 2 elementos a insertar son:
+
+0 0
+0 1
+1 0
+1 1
+
+El único caso en el que el bug se expondrá es si ambos hashes son 1. En este caso, primero se guarda el primer elemento en array[1]. Luego, el siguiente elemento no tiene espacio en array[1] y como es la última posición del arreglo, lo descartará. Por lo tanto, la respuesta para este caso será "1/4" (sin comillas)
+
+
+PORTUGUÉS:
+Uma hash table é uma estrutura de dados que permite salvar elementos e acessá-los rapidamente usando uma função de hashing, ou seja, uma função que, para cada elemento possível devolve um número dentro de um intervalo especificado.
+
+Uma das maneiras mais famosas de implementar uma hash table é chamada de "hashing fechado". Esta implementação salva os dados em uma matriz de comprimento K prefixado e após o ao receber um novo elemento E, faz o hash e o coloca na posição hash(E) (a função "hash" sempre devolve um inteiro no intervalo [0, K)). Se essa posição já estiver ocupada, tenta salvá-lo na posição hash(E) +1. Se essa também estiver ocupada, tenta na hash(E)+2 e assim em diante, até chegar à última posição do array. Se mesmo assim não encontrar espaço, retorna para a posição 0 do array e segue o mesmo processo até encontrar uma posição livre.
+Juan programou sua hash table usando hashing fechado, e utilizou uma função de hashing uniforme (ou seja, para cada elemento é atribuído um valor inteiro no intervalo [0, K) com a mesma probabilidade). Infelizmente, sua implementação tem um bug: se chegar até o final do array e não encontrar espaço para salvar o elemento, ele o descarta diretamente (ou seja, não tenta colocá-lo nas posições 0, 1, 2... como seria correto).
+
+Para testar a implementação de Juan foram selecionados N elementos aleatórios para inseri-los em uma hash table implementada com um array de comprimento K. Qual é a probabilidade de que com este teste descubramos que a implementação de Juan tem um bug, se N = 27 e K = 42?
+
+A resposta deve ser inserida como uma fração irredutível (ver o exemplo).
+
+Exemplo:
+
+Se N = 2 e K = 2, os possíveis hashes para os N = 2 elementos a serem inseridos são:
+
+0 0
+0 1
+1 0
+1 1
+
+O único caso em que o bug será exposto é se ambos os hashes forem 1. Nesse caso, primeiro é salvo o primeiro elemento em array[1]. Depois, o seguinte elemento não tem espaço em array[1] e como é a última posição do array, será descartado. Portanto, a resposta para este caso será "1/4" (sem aspas)

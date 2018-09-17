@@ -1,0 +1,1 @@
+Todos los problemas de IT Challenge 2018 de Mercadolibre, cada uno con los recursos necesarios para resolverlo (ya que algunos tienen links a otros sitios tipo Dropbox con archivos necesarios para resolverlos). 

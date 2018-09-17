@@ -1,0 +1,14 @@
+250 PTS
+
+ESPAÑOL
+Ximena, Oscar y Raúl son tres amigos a los que les gusta la criptografía.
+Recientemente aprendieron un sencillo método de cifrado y decidieron utilizarlo para compartir archivos de manera segura. Desafortunadamente olvidaron la clave de encriptación que usaron: sólo recuerdan que era un número entero entre 0 y 255.
+Podés ayudarlos a recuperar el mensaje original?
+
+https://s3.amazonaws.com/it.challenge.18/secreto.pdf
+
+PORTUGUÊS
+Ximena, Oscar e Raul são três amigos que gostam de criptografía. Há pouco tempo aprenderam um método se cifrado muito simples e decidiram utilizá-lo para compartilhar arquivos de uma maneira segura. Infelizmente, esqueceram a chave de encriptação que usaram: eles só lembram que era um número inteiro entre 0 e 255.
+Você pode lhes ajudar a recuperar a mensagem original?
+
+https://s3.amazonaws.com/it.challenge.18/secreto.pdf

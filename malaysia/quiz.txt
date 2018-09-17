@@ -1,0 +1,117 @@
+150 PTS
+
+ESPAÑOL
+Hemos definido nuestro propio lenguaje de marcado, HRML.
+En HRML, cada elemento consta de una etiqueta de inicio y atributos asociados a ella. Para cerrar un elemento, hay 2 opciones: una etiqueta de cierre separada, o; la etiqueta de cierre con una sintaxis especial. Solo las etiquetas de inicio pueden tener atributos. Las etiquetas también pueden estar anidadas.
+Las etiquetas de apertura siguen el formato:
+<tag-name attribute1-name="value1" attribute2-name="value2" ... >
+
+
+Las etiquetas de cierre siguen el formato:
+En la línea
+<tag-name attribute1-name="value1" ... />
+
+
+Etiqueta separada:
+</tag-name>
+Podemos llamar a un atributo haciendo referencia a la etiqueta, seguida del símbolo '~' y el nombre del atributo. Para atravesar etiquetas anidadas usamos el carácter '.” entre las etiquetas.
+Por ejemplo:
+<tag1 value="HelloWorld">
+  <tag2 desc="Description1" />
+  <tag3 name="Name2">
+    <tag4 quantity="12" />
+  </tag3>
+</tag1>
+
+
+Los atributos se referencian como:
+tag1~value
+tag1.tag2~desc
+tag1.tag3~name
+tag1.tag3.tag4~quantity
+
+
+Recibes un conjunto ordenado de archivos. Se te proporciona un código fuente válido en formato HRML que consta de N líneas. Tienes que responder Q consultas asociadas a cada código fuente. Cada consulta te pide que imprimas el valor del atributo especificado en una nueva línea separada. Imprimir "¡No encontrado!" si no existe dicho atributo.
+La respuesta que le permitirá continuar con la competencia será el hash SHA-256 (en mayúsculas) de un archivo que contiene todos los valores obtenidos como resultado de las consultas (respecto del pedido), un valor por línea, sin líneas en blanco (excepto una última nueva línea vacía que debe estar presente). Use solo LF (0x0A) como nueva línea.
+Formato de entrada de cada archivo
+La primera línea consta de dos enteros separados por espacio, N y Q. Las siguientes N líneas del código fuente de HRML válido y cada línea constan de una etiqueta de apertura con cero o más atributos, o una etiqueta de cierre. Luego, las siguientes líneas Q contienen las consultas. Cada consulta consiste en una string que hace referencia a un atributo en el código fuente HRML.
+Restricciones
+N> = 1
+N> = 1
+Todos los nombres de etiquetas son únicos.
+Sample Input for one file
+4 3
+<tag1 value = "HelloWorld">
+  <tag2 name = "Name1">
+  </tag2>
+</tag1>
+tag1.tag2~name
+tag1~name
+tag1~value
+
+
+Sample Output for one file
+Name1
+Not Found!
+HelloWorld
+
+
+https://www.dropbox.com/s/tdpttblm5ez64vq/HRML%20Parser.zip?dl=0
+PORTUGUES
+Definimos nossa própria linguagem de marcação, HRML.
+Em HRML, cada elemento consta de uma tag de abertura e atributos associados a ela. Para fechar um elemento, há 2 opções: uma tag de fechamento separada, ou; a tag de fechamento com uma sintaxe especial. Só as tags de início podem ter atributos. As tags também podem estar aninhadas.
+As tags de abertura seguem o formato:
+<tag-name attribute1-name="value1" attribute2-name="value2" ... >
+
+
+As tags de fechamento seguem o formato:
+Na linha
+<tag-name attribute1-name="value1" ... />
+
+
+Tag separada:
+</tag-name>
+
+
+Podemos chamar um atributo fazendo referência à tag, seguida do símbolo '~' e o nome do atributo. Para atravessar tags aninhadas usamos o caractere '.” entre as tags.
+Por exemplo:
+<tag1 value="HelloWorld">
+  <tag2 desc="Description1" />
+  <tag3 name="Name2">
+    <tag4 quantity="12" />
+  </tag3>
+</tag1>
+
+
+Os atributos são referenciados como:
+tag1~value
+tag1.tag2~desc
+tag1.tag3~name
+tag1.tag3.tag4~quantity
+
+
+Você recebe um conjunto ordenado de arquivos. Também recebe um código fonte válido em formato HRML que consta de N linhas. Você tem que responder Q consultas associadas a cada código fonte. Cada consulta pede para você imprimir o valor do atributo especificado em uma nova linha separada. Imprimir "Não encontrado!" se não existir esse atributo.
+ A resposta que lhe permitirá continuar com a competência será o hash SHA-256 (em maiúsculas) de um arquivo que contém todos os valores obtidos como resultado das consultas (em relação ao pedido), um valor por linha, sem linhas em branco (exceto uma última nova linha vazia que deve estar presente). Use apenas LF (0x0A) como nova linha.
+Formato de entrada de cada arquivo
+A primeira linha consta de dois inteiros separados por espaço, N e Q. As seguintes N linhas do código fonte de HRML válido e cada linha constam de uma etiqueta de abertura com zero ou mais atributos, ou uma tag de fechamento. Depois, as seguintes linhas Q contêm as consultas. Cada consulta consiste em uma string que faz referência a um atributo no código fonte HRML.
+Restrições
+N> = 1
+N> = 1
+Todos os nomes de tags são únicos.
+Sample Input for one file
+4 3
+<tag1 value = "HelloWorld">
+  <tag2 name = "Name1">
+  </tag2>
+</tag1>
+tag1.tag2~name
+tag1~name
+tag1~value
+
+
+Sample Output for one file
+Name1
+Not Found!
+HelloWorld
+
+https://www.dropbox.com/s/tdpttblm5ez64vq/HRML%20Parser.zip?dl=0

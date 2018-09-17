@@ -1,0 +1,17 @@
+150 PTS
+
+ESPAÑOL
+Mercado Libre se está expandiendo, por ello estamos construyendo una nueva oficina. La misma está en proceso de construcción. Sin embargo el equipo encargado de la decoración está en un dilema y solicitó ayuda a IT.
+
+Tienen que decorar el muro principal de la oficina para que sea el punto focal de la oficina. El muro tiene 32 x 3 metros (ancho x alto, sin ninguna aberturas) y se quiere utilizar planchas de vinilo de 1 metro por 3 metros (ancho x alto, pueden ser dispuesta tanto horizontalmente como verticalmente) de distintos colores y patrones de diseño pero no están muy seguros de cómo disponerlos para que quede lindo. Por ello pidieron al equipo de IT si les podían calcular todas las posibles disposiciones (sin superponer planchas) para poder tomar una decisión sin dejar ninguna opción sin evaluar.
+
+Has sido asignado la resolución de esta incógnita: ¿qué cantidad de formas distintas de disponer las planchas van a tener que evaluar para tomar una decisión?
+
+
+PORTUGUÉS
+O Mercado Livre está se expandindo, então foi decidido que precisávamos de um novo escritório. Ele está em processo de construção. No entanto, a equipe de decoração está em um dilema e pediu ajuda ao departamento de TI.
+
+Eles têm que decorar a parede principal do escritório para ser o ponto focal do escritório. A parede tem 32 x 3 metros (largura x altura, sem aberturas) e a ideia é usar usar placas de vinil de 1 metro por 3 metros (largura x altura, podem ser dispostas tanto horizontalmente como verticalmente) de diferentes cores e padrões de design, mas eles não têm certeza de como organizá-las para que tudo fique bonito. Por isso, pediram à equipe de TI que calculasse todas as disposições possíveis (sem sobreposição de placas) para poder tomar uma decisão sem deixar nenhuma opção sem avaliar.
+
+Você foi designado para resolver esta incógnita: quantas maneiras diferentes de organizar as placas terão que ser avaliadas para tomar uma decisão?
+
